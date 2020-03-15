@@ -34,6 +34,7 @@ public class Principal {
 				vacaMimosa.atribuirPeso_inicial(Float.valueOf(JOptionPane.showInputDialog("Digite o peso Inicial ")));
 				vacaMimosa.atribuirPeso_final(Float.valueOf(JOptionPane.showInputDialog("Digite O Peso Final ")));
 				vacaMimosa.atribuirRaca(JOptionPane.showInputDialog("Digite a Raca "));
+				vacaMimosa.atribuirTipo(JOptionPane.showInputDialog("Digite o Tipo: 'Bezerro (a), Vaca (Boi), Nuvilha(Garrote), etc.'"));
 			} else if (opcao == 3) {
 				JOptionPane.showMessageDialog(null, 
 						"Este Animal Nasceu em:  "+boiBonito.pegarData_nasc() + "\n" +
